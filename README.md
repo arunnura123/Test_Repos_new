@@ -50,10 +50,9 @@ bmc_benchmarks/
 
 ## Prerequisites
 
-- **Hardware**: AMD MI300X GPU (192 GB HBM3) — works on other CUDA/ROCm GPUs with reduced accuracy
+
 - **Software**: Python 3.8+, PyTorch 2.1+ with CUDA/ROCm support
 - **Optional**: vLLM (for native `paged_attention_v1` kernel; falls back to gather+SDPA without it)
-- **Optional**: rocprof (for L2 cache hit/miss profiling on AMD GPUs)
 
 ```bash
 pip install -r requirements.txt
