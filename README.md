@@ -1,6 +1,6 @@
 # BMC Benchmarks
 
-Benchmarking suite for **Block-level Memory-Contiguous (BMC) KV cache management** — comparing BMC's contiguous memory layout against vLLM's paged attention and LMCache's chunked offloading for LLM inference on AMD MI300X GPUs.
+Benchmarking suite for comparing BMC's contiguous memory layout against vLLM's paged attention and LMCache's chunked offloading for LLM inference on AMD MI300X GPUs.
 
 ## Directory Structure
 
